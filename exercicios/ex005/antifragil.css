@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(221, 153, 164);
+}
+
+.titulo {
+    text-decoration: underline;
+}
+
+.sum {
+    text-decoration: underline;
+}
+
+.l1 {
+    text-decoration: underline;
+}
+
+.l2 {
+    text-decoration: underline;
+}
+
+.l3 {
+    text-decoration: underline;
+}
+
+.l4 {
+    text-decoration: underline;
+}
+
+.l5 {
+    text-decoration: underline;
+}
+.l6 {
+
+    text-decoration: underline;
+}
+
+.l7 {
+    text-decoration: underline;
+}
+
+.frase {
+    font: italic;
+    text-align: center;
+    text-decoration: underline;
+}
