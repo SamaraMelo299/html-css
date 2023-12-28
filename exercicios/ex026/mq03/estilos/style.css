@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
         /* Declarações Gerais */
+        @media all {
         * {
             margin: 0px;
             padding: 0px;
@@ -19,6 +20,7 @@
             color: white;
             text-shadow: 2px 2px 0px #1526a7;
             padding: 10px;
+            }
         }
 
          /* Declarações Retrato */
