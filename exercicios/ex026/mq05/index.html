@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()"> 
     <header>
         <h1>Diário de Uma Estoica</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -49,6 +49,15 @@
         Desenvolvido por <a href="https://github.com/SamaraMelo299" target="_blank">Samara Melo</a>
     </footer>
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            } 
+        }
+
         function clickMenu() {
             var itens = document.getElementById('itens');
             if (itens.style.display === 'none' || itens.style.display === '') {
