@@ -74,3 +74,17 @@ article > p {
      margin-bottom: 10px;
      text-indent: 20px;
 }
+
+footer {
+    background-color: rgba(87, 87, 87);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
