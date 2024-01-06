@@ -2,6 +2,10 @@ body {
     background-color: rgb(221, 153, 164);
 }
 
+div {
+    background-color: white;
+}
+
 .titulo {
     text-decoration: underline;
 }
@@ -10,31 +14,7 @@ body {
     text-decoration: underline;
 }
 
-.l1 {
-    text-decoration: underline;
-}
-
-.l2 {
-    text-decoration: underline;
-}
-
-.l3 {
-    text-decoration: underline;
-}
-
-.l4 {
-    text-decoration: underline;
-}
-
-.l5 {
-    text-decoration: underline;
-}
-.l6 {
-
-    text-decoration: underline;
-}
-
-.l7 {
+.livro {
     text-decoration: underline;
 }
 
